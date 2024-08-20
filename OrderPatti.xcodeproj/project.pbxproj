@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13ABC44A2C74C69F008C5296 /* OrderPattiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABC4492C74C69F008C5296 /* OrderPattiApp.swift */; };
+		13ABC44C2C74C69F008C5296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABC44B2C74C69F008C5296 /* ContentView.swift */; };
+		13ABC44E2C74C6A0008C5296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ABC44D2C74C6A0008C5296 /* Assets.xcassets */; };
+		13ABC4512C74C6A0008C5296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ABC4502C74C6A0008C5296 /* Preview Assets.xcassets */; };
+		13ABC45B2C74C6A0008C5296 /* OrderPattiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABC45A2C74C6A0008C5296 /* OrderPattiTests.swift */; };
+		13ABC4652C74C6A0008C5296 /* OrderPattiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABC4642C74C6A0008C5296 /* OrderPattiUITests.swift */; };
+		13ABC4672C74C6A0008C5296 /* OrderPattiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABC4662C74C6A0008C5296 /* OrderPattiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13ABC4572C74C6A0008C5296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13ABC43E2C74C69F008C5296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13ABC4452C74C69F008C5296;
+			remoteInfo = OrderPatti;
+		};
+		13ABC4612C74C6A0008C5296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13ABC43E2C74C69F008C5296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13ABC4452C74C69F008C5296;
+			remoteInfo = OrderPatti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13ABC4462C74C69F008C5296 /* OrderPatti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderPatti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13ABC4492C74C69F008C5296 /* OrderPattiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPattiApp.swift; sourceTree = "<group>"; };
+		13ABC44B2C74C69F008C5296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13ABC44D2C74C6A0008C5296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13ABC4502C74C6A0008C5296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13ABC4562C74C6A0008C5296 /* OrderPattiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderPattiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13ABC45A2C74C6A0008C5296 /* OrderPattiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPattiTests.swift; sourceTree = "<group>"; };
+		13ABC4602C74C6A0008C5296 /* OrderPattiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderPattiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13ABC4642C74C6A0008C5296 /* OrderPattiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPattiUITests.swift; sourceTree = "<group>"; };
+		13ABC4662C74C6A0008C5296 /* OrderPattiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPattiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13ABC4432C74C69F008C5296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13ABC4532C74C6A0008C5296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13ABC45D2C74C6A0008C5296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13ABC43D2C74C69F008C5296 = {
+			isa = PBXGroup;
+			children = (
+				13ABC4482C74C69F008C5296 /* OrderPatti */,
+				13ABC4592C74C6A0008C5296 /* OrderPattiTests */,
+				13ABC4632C74C6A0008C5296 /* OrderPattiUITests */,
+				13ABC4472C74C69F008C5296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13ABC4472C74C69F008C5296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13ABC4462C74C69F008C5296 /* OrderPatti.app */,
+				13ABC4562C74C6A0008C5296 /* OrderPattiTests.xctest */,
+				13ABC4602C74C6A0008C5296 /* OrderPattiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13ABC4482C74C69F008C5296 /* OrderPatti */ = {
+			isa = PBXGroup;
+			children = (
+				13ABC4492C74C69F008C5296 /* OrderPattiApp.swift */,
+				13ABC44B2C74C69F008C5296 /* ContentView.swift */,
+				13ABC44D2C74C6A0008C5296 /* Assets.xcassets */,
+				13ABC44F2C74C6A0008C5296 /* Preview Content */,
+			);
+			path = OrderPatti;
+			sourceTree = "<group>";
+		};
+		13ABC44F2C74C6A0008C5296 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13ABC4502C74C6A0008C5296 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13ABC4592C74C6A0008C5296 /* OrderPattiTests */ = {
+			isa = PBXGroup;
+			children = (
+				13ABC45A2C74C6A0008C5296 /* OrderPattiTests.swift */,
+			);
+			path = OrderPattiTests;
+			sourceTree = "<group>";
+		};
+		13ABC4632C74C6A0008C5296 /* OrderPattiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13ABC4642C74C6A0008C5296 /* OrderPattiUITests.swift */,
+				13ABC4662C74C6A0008C5296 /* OrderPattiUITestsLaunchTests.swift */,
+			);
+			path = OrderPattiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13ABC4452C74C69F008C5296 /* OrderPatti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13ABC46A2C74C6A0008C5296 /* Build configuration list for PBXNativeTarget "OrderPatti" */;
+			buildPhases = (
+				13ABC4422C74C69F008C5296 /* Sources */,
+				13ABC4432C74C69F008C5296 /* Frameworks */,
+				13ABC4442C74C69F008C5296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderPatti;
+			productName = OrderPatti;
+			productReference = 13ABC4462C74C69F008C5296 /* OrderPatti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13ABC4552C74C6A0008C5296 /* OrderPattiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13ABC46D2C74C6A0008C5296 /* Build configuration list for PBXNativeTarget "OrderPattiTests" */;
+			buildPhases = (
+				13ABC4522C74C6A0008C5296 /* Sources */,
+				13ABC4532C74C6A0008C5296 /* Frameworks */,
+				13ABC4542C74C6A0008C5296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13ABC4582C74C6A0008C5296 /* PBXTargetDependency */,
+			);
+			name = OrderPattiTests;
+			productName = OrderPattiTests;
+			productReference = 13ABC4562C74C6A0008C5296 /* OrderPattiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13ABC45F2C74C6A0008C5296 /* OrderPattiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13ABC4702C74C6A0008C5296 /* Build configuration list for PBXNativeTarget "OrderPattiUITests" */;
+			buildPhases = (
+				13ABC45C2C74C6A0008C5296 /* Sources */,
+				13ABC45D2C74C6A0008C5296 /* Frameworks */,
+				13ABC45E2C74C6A0008C5296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13ABC4622C74C6A0008C5296 /* PBXTargetDependency */,
+			);
+			name = OrderPattiUITests;
+			productName = OrderPattiUITests;
+			productReference = 13ABC4602C74C6A0008C5296 /* OrderPattiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13ABC43E2C74C69F008C5296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					13ABC4452C74C69F008C5296 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					13ABC4552C74C6A0008C5296 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 13ABC4452C74C69F008C5296;
+					};
+					13ABC45F2C74C6A0008C5296 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 13ABC4452C74C69F008C5296;
+					};
+				};
+			};
+			buildConfigurationList = 13ABC4412C74C69F008C5296 /* Build configuration list for PBXProject "OrderPatti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13ABC43D2C74C69F008C5296;
+			productRefGroup = 13ABC4472C74C69F008C5296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13ABC4452C74C69F008C5296 /* OrderPatti */,
+				13ABC4552C74C6A0008C5296 /* OrderPattiTests */,
+				13ABC45F2C74C6A0008C5296 /* OrderPattiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13ABC4442C74C69F008C5296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ABC4512C74C6A0008C5296 /* Preview Assets.xcassets in Resources */,
+				13ABC44E2C74C6A0008C5296 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13ABC4542C74C6A0008C5296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13ABC45E2C74C6A0008C5296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13ABC4422C74C69F008C5296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ABC44C2C74C69F008C5296 /* ContentView.swift in Sources */,
+				13ABC44A2C74C69F008C5296 /* OrderPattiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13ABC4522C74C6A0008C5296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ABC45B2C74C6A0008C5296 /* OrderPattiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13ABC45C2C74C6A0008C5296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ABC4672C74C6A0008C5296 /* OrderPattiUITestsLaunchTests.swift in Sources */,
+				13ABC4652C74C6A0008C5296 /* OrderPattiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13ABC4582C74C6A0008C5296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13ABC4452C74C69F008C5296 /* OrderPatti */;
+			targetProxy = 13ABC4572C74C6A0008C5296 /* PBXContainerItemProxy */;
+		};
+		13ABC4622C74C6A0008C5296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13ABC4452C74C69F008C5296 /* OrderPatti */;
+			targetProxy = 13ABC4612C74C6A0008C5296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13ABC4682C74C6A0008C5296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13ABC4692C74C6A0008C5296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13ABC46B2C74C6A0008C5296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrderPatti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikash.OrderPatti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13ABC46C2C74C6A0008C5296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrderPatti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikash.OrderPatti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13ABC46E2C74C6A0008C5296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikash.OrderPattiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderPatti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrderPatti";
+			};
+			name = Debug;
+		};
+		13ABC46F2C74C6A0008C5296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikash.OrderPattiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderPatti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrderPatti";
+			};
+			name = Release;
+		};
+		13ABC4712C74C6A0008C5296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikash.OrderPattiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrderPatti;
+			};
+			name = Debug;
+		};
+		13ABC4722C74C6A0008C5296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikash.OrderPattiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrderPatti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13ABC4412C74C69F008C5296 /* Build configuration list for PBXProject "OrderPatti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ABC4682C74C6A0008C5296 /* Debug */,
+				13ABC4692C74C6A0008C5296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13ABC46A2C74C6A0008C5296 /* Build configuration list for PBXNativeTarget "OrderPatti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ABC46B2C74C6A0008C5296 /* Debug */,
+				13ABC46C2C74C6A0008C5296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13ABC46D2C74C6A0008C5296 /* Build configuration list for PBXNativeTarget "OrderPattiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ABC46E2C74C6A0008C5296 /* Debug */,
+				13ABC46F2C74C6A0008C5296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13ABC4702C74C6A0008C5296 /* Build configuration list for PBXNativeTarget "OrderPattiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ABC4712C74C6A0008C5296 /* Debug */,
+				13ABC4722C74C6A0008C5296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13ABC43E2C74C69F008C5296 /* Project object */;
+}
